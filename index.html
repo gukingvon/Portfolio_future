@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style.css">
     <title>portfólio</title>
 </head>
 
@@ -16,107 +17,148 @@
         <div class="Container">
             <section class="ConfigNavbar">
                 <div class="ConfigTitle">
-                    <h1>Developer</h1>
-                </div>
-                <div class="BtnTema">
-                    <i class="fa-solid fa-moon"></i>
+                    <h1>FullStack Developer</h1>
                 </div>
                 <header>
                     <div class="hamburger" id="hamburger">☰</div>
 
-                    <nav class="navbar" id="navbar">
-                        <a href="#about" tabindex="1">Sobre</a>
-                        <a href="#projects" tabindex="2">Projetos</a>
-                        <a href="#skills" tabindex="3">Habilidades</a>
-                        <a href="#experience" tabindex="4">Experiência</a>
-                        <a href="#contact" tabindex="5">Contatos</a>
+                    <nav class="navbar" id="navbar" aria-label="Menu de navegação principal">
+                        <ul>
+                            <li><a href="#about" tabindex="1">Sobre</a></li>
+                            <li><a href="#projects" tabindex="2">Projetos</a></li>
+                            <li><a href="#skills" tabindex="3">Habilidades</a></li>
+                            <li><a href="#exp" tabindex="4">Experiência</a></li>
+                        </ul>
                     </nav>
                 </header>
             </section>
-            <div class="PrincipalText">
-                <section id="about" tabindex="0" aria-label="Sobre">
+            <section id="about" tabindex="0" aria-label="Sobre">
+                <div class="PrincipalText">
                     <h1>Olá, sou Gustavo Ferreira.</h1>
-                    <p>Sou um desenvolvedor apaixonado por tecnologia, focado em criar soluções modernas<br>funcionais e
-                        eficientes, neste portfólio apresento alguns dos meus principais projetos<br>destacando minhas
-                        habilidades técnicas e meu compromisso com a inovação e a qualidade.</p>
+                    <p>Sou um desenvolvedor apaixonado por tecnologia, focado em <strong>criar soluções modernas</strong><br>funcionais e
+                        <strong>eficientes</strong>, neste portfólio apresento alguns dos meus principais projetos<br>destacando minhas
+                        habilidades técnicas e meu compromisso com a <strong>inovação e a qualidade.</strong></p>
+                        <div class="img">
+                            <img src="./src/component/astronauta.png" alt="Foto de Gustavo" class="Profile">
+                        </div>
                     <div class="icons">
                         <a href="https://github.com/gukingvon" target="_blank" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/kleversongustavo-developer/" target="_blank"
                             title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
+                             <i class="fab fa-linkedin"></i>
                         </a>
                         <a href="mailto:kleversongustavo0@email.com" title="E-mail">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <a class="btn" href="./src/curriculo_kleverson_gustavo.docx.pdf" download="gustavo-ferreira" tabindex="0">Baixar Currículo</a>
+                        <a class="btn" href="./src/curriculo_kleverson_gustavo.docx.pdf" download="gustavo-ferreira"
+                            tabindex="7">Baixar Currículo</a>
                     </div>
-            </div><br>
+                </div>
             </section>
-            <div class="CardContainer">
-                <h2 class="TextTitle">Projetos</h2>
-                <section id="projects" tabindex="0" aria-label="Projetos">
+            <section id="projects" tabindex="0" aria-label="Projetos">
+                <h2>Projetos</h2>
+                <p class="txt">Nesta seção, compartilho alguns dos meus projetos recentes, demonstrando minha trajetória de crescimento e aprimoramento na área de desenvolvimento.</p>
+                <div class="CardContainer">
                     <article class="project-card">
+                        <img src="caminho/para/seu/portfolio.png" alt="tela do Portfólio Interativo">
                         <h3>Portfólio Interativo</h3>
-                        <p>Portfólio com seções animadas e navegação suave<br>para destacar meus trabalhos e
-                            habilidades.</p>
-                        <a href="#">Ver mais</a>
+                        <p>Portfólio web dinâmico e responsivo, desenvolvido para destacar minhas habilidades e projetos
+                            através de seções animadas e navegação intuitiva.</p>
+                        <a href="#" tabindex="1" aria-label="Saber mais sobre meu projeto Portfólio Interativo">Ver
+                            mais</a>
                     </article>
+
                     <article class="project-card">
+                        <img src="caminho/para/sua/calculadora.png" alt="Calculadora JavaScript">
                         <h3>Calculadora JavaScript</h3>
-                        <p>Uma calculadora web responsiva com funcionalidades<br>básicas e design clean com animações
-                            suaves.
-                        </p>
-                        <a href="#">Ver mais</a>
+                        <p>Aplicação web de calculadora com design limpo e responsivo, implementando funcionalidades
+                            aritméticas básicas e animações sutis para uma experiência de usuário agradável.</p>
+                        <a href="#" tabindex="2" aria-label="Saber mais sobre meu projeto Calculadora JavaScript">Ver
+                            mais</a>
                     </article>
                     <article class="project-card">
-                        <h3>Blog Pessoal</h3>
-                        <p>Blog estático com layout moderno, suporte a temas escuro e claro, e transições agradáveis.
+                        <img src="caminho/para/seu/insightblog.png" alt="Dashboard do InsightBlog CMS">
+                        <h3>InsightBlog CMS</h3>
+                        <p>Plataforma de blog estático com Content Management System (CMS) simplificado para criação e
+                            gestão de posts, oferecendo temas claro e escuro, layout responsivo e otimizações de SEO.
                         </p>
-                        <a href="#">Ver mais</a>
+                        <a href="#" tabindex="3" aria-label="Saber mais sobre meu projeto InsightBlog CMS">Ver mais</a>
                     </article>
-                </section>
-            </div>
-        </div><br>
-         <h2 class="TerceiroTitulo">Habilidades</h2>
-        <section id="skills" tabindex="0" aria-label="Habilidades">
-            <div class="skills-list">
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span class="skill">Python</span>
-                <span class="skill">JavaScript</span>
-                <span class="skill">Java</span>
-                <span class="skill">MySQL</span>
-            </div>
-        </section>
-        <section id="experience" tabindex="0" aria-label="Cursos e Experiência">
-            <h2>Estudos</h2>
-            <p>Aqui eu mostro meus caminhos como curso, faculdade, e empregos!</p>
-            <div class="Content-history">
-                <div class="step-left">
-                    <h3>Primeiro Contato</h3>
-                    <p>Comecei fazendo curso técnico de Desenvolvimento de Sistemas.</p>
+                    <article class="project-card">
+                        <img src="caminho/para/seu/taskflow.png" alt="Interface do TaskFlow Manager">
+                        <h3>TaskFlow Manager</h3>
+                        <p>Aplicativo web para gerenciamento de tarefas, construído com JavaScript moderno, persistência
+                            de dados local, categorização por prioridade e uma interface de usuário minimalista e focada
+                            na produtividade.</p>
+                        <a href="#" tabindex="4" aria-label="Saber mais sobre meu projeto TaskFlow Manager">Ver mais</a>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="caminho/para/seu/currencysync.png" alt="Tela do CurrencySync App">
+                        <h3>CurrencySync App</h3>
+                        <p>Sistema de conversão de moedas online, integrando a API ExchangeRates para fornecer taxas de
+                            câmbio atualizadas, histórico de conversões e uma interface responsiva desenvolvida com
+                            tecnologias web fundamentais.</p>
+                        <a href="#" tabindex="5" aria-label="Saber mais sobre meu projeto CurrencySync App">Ver mais</a>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="caminho/para/seu/neuromatch.png" alt="Gameplay do NeuroMatch Game">
+                        <h3>NeuroMatch Game</h3>
+                        <p>Jogo da memória interativo e com dificuldade progressiva, apresentando feedback visual
+                            intuitivo, lógica de jogo implementada em JavaScript puro e animações CSS para uma
+                            experiência envolvente.</p>
+                        <a href="#" tabindex="6" aria-label="Saber mais sobre meu projeto NeuroMatch Game">Ver mais</a>
+                    </article>
                 </div>
-                <div class="step-right">
-                    <h3>Primeira Linguagem</h3>
-                    <p>Gostei de Python e aprendi bastante nesse curso.</p>
+            </section>
+            <section id="skills" tabindex="0" aria-label="Habilidades">
+                <h2 class="TerceiroTitulo">Minhas Habilidades</h2>
+                <p class="ParagrafoHabilidades">Ao longo da minha trajetória como estudante de <strong>Engenharia de Software</strong> e
+                    desenvolvedor em formação<br>venho me dedicando de forma prática e teórica para construir uma base
+                    sólida
+                    nas principais tecnologias do mercado<br>Cada uma dessas <strong>habilidades</strong> representa etapas importantes
+                    do meu
+                    </strong>aprendizado.</strong></p>
+                <div class="icons1">
+                    <i class="devicon-html5-plain colored" title="HTML5"></i>
+                    <i class="devicon-css3-plain colored" title="CSS3"></i>
+                    <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                    <i class="devicon-react-original colored" title="React"></i>
+                    <i class="devicon-java-plain colored" title="Java"></i>
+                    <i class="devicon-python-plain colored" title="Python"></i>
+                    <i class="devicon-csharp-plain colored" title="C#"></i>
+                    <i class="devicon-git-plain colored" title="Git"></i>
+                    <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                    <i class="devicon-mysql-plain colored" title="MySQL"></i>
                 </div>
-                <div class="step-left">
-                    <h3>Decisão Importante</h3>
-                    <p>Decidi que queria ser Full-Stack.</p>
+            </section>
+            <section id="experience" tabindex="0" aria-label="Cursos e Experiência">
+                <h2>Estudos</h2>
+                <p>Minha jornada é feita de estudos, dedicação e trabalho. Conheça meus cursos, faculdade e experiências!</p>
+                <div class="Content-history">
+                    <div class="step-left">
+                        <h3>Formação Técnica Inicial</h3>
+                        <p>Iniciei minha jornada na área de tecnologia com um curso técnico em <strong>Desenvolvimento de
+                            Sistemas</strong>.</p>
+                    </div>
+                    <div class="step-right">
+                        <h1>Faculdade de Engenharia de Software</h1>
+                        <p> Estou cursando <strong>Engenharia de Software</strong> com foco no desenvolvimento de soluções tecnológicas modernas e eficientes.</p>
+                    </div>
+                    <div class="step-left">
+                        <h3>Curso na vocação</h3>
+                        <p>Além da faculdade, também faço um curso técnico na <strong>Instituição Vocação</strong>, com o objetivo de aprimorar minhas habilidades práticas e aprofundar meu entendimento em áreas como programação</p>
+                    </div>
                 </div>
-                <div class="step-right">
-                    <h3>Melhor Decisão</h3>
-                    <p>Entrei na faculdade de Engenharia de Software.</p>
-                </div>
-            </div>
-        </section>
-        </section>
+            </section>
+        </div>
         <footer>
             <p>© 2025 Gustavo. Todos os direitos reservados.</p>
         </footer>
-        <script src="script.js"></script>
+        <script src="./src/script.js"></script>
     </main>
 </body>
 
