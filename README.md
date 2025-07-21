@@ -12,8 +12,8 @@
 ## 🚧 Status atual
 
 - [x] Estrutura básica (menu, cabeçalho, rodapé)  
-- [ ] Seção “Sobre mim”  
-- [ ] Galeria de projetos  
+- [x] Seção “Sobre mim”  
+- [x] Galeria de projetos  
 - [ ] Contato (formulário ou links)  
 - [ ] Layout responsivo para mobile/tablet  
 - [ ] Deploy (GitHub Pages ou outro)
